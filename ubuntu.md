@@ -41,3 +41,4 @@ sudo update-java-alternatives -s java-7-oracle
 sudo update-alternatives --config java
 sudo apt-get install git-review
 
+export USE_PREBUILT_CHROMIUM=1
