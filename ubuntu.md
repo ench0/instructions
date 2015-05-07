@@ -38,3 +38,25 @@ sudo update-alternatives --config java
 sudo apt-get install git-review
 
 export USE_PREBUILT_CHROMIUM=1
+
+
+
+
+sudo add-apt-repository ppa:ubuntu-toolchain-r/test
+sudo apt-get update
+sudo apt-get install g++-5
+
+sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-4.9 10
+sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-5 20
+
+sudo update-alternatives --install /usr/bin/g++ g++ /usr/bin/g++-4.9 10
+sudo update-alternatives --install /usr/bin/g++ g++ /usr/bin/g++-5 20
+
+sudo update-alternatives --install /usr/bin/cc cc /usr/bin/gcc 30
+sudo update-alternatives --set cc /usr/bin/gcc
+
+sudo update-alternatives --install /usr/bin/c++ c++ /usr/bin/g++ 30
+sudo update-alternatives --set c++ /usr/bin/g++
+
+sudo update-alternatives --config gcc
+sudo update-alternatives --config g++
