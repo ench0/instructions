@@ -1,0 +1,11 @@
+wget https://aur.archlinux.org/packages/is/isl/isl.tar.gz
+tar xzfv isl.tar.gz
+cd isl
+makepkg -s
+sudo pacman -U isl-0.14-1-x86_64.pkg.tar.xz
+
+wget https://aur.archlinux.org/packages/cl/cloog/cloog.tar.gz
+tar xzfv cloog.tar.gz
+cd cloog
+makepkg -s
+sudo pacman -U cloog-0.18.3-3-x86_64.pkg.tar.xz
