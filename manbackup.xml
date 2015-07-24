@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- hlte -->
+  <project name="ench0/android_device_samsung_hlte/" path="device/samsung/hlte" remote="gh" revision="lp-mr1.1" />
+  <project name="ench0/android_device_samsung_hlte-common/" path="device/samsung/hlte-common" remote="gh" revision="lp5.1" />
+
+  <project name="ench0/android_kernel_samsung_hlted/" path="kernel/samsung/hlte" remote="gh" revision="e3" />
+
+  <project name="CyanogenMod/android_device_samsung_msm8974-common" path="device/samsung/msm8974-common" remote="gh" revision="cm-12.1" />
+  <project name="CyanogenMod/android_device_samsung_qcom-common" path="device/samsung/qcom-common" remote="gh" revision="cm-12.1" />
+
+  <project name="CyanogenMod/android_hardware_samsung" path="hardware/samsung" remote="gh" revision="cm-12.1" />
+  <project name="TheMuppets/proprietary_vendor_samsung" path="vendor/samsung" remote="gh" revision="cm-12.1" />
+
+
+
+
+
+<!--
+  <project name="SlimRoms/device_samsung_hlte/" path="device/samsung/hlte" remote="gh" revision="lp5.1" />
+-->
+<!--
+  <project name="SlimRoms/device_samsung_hlte-common/" path="device/samsung/hlte-common" remote="gh" revision="lp5.1" />
+-->
+<!--
+  <project name="ench0/android_device_samsung_hlte-common/" path="device/samsung/hlte-common" remote="gh" revision="lp5.1" />
+-->
+
+<!--
+  <project name="SlimRoms/kernel_samsung_hlte/" path="kernel/samsung/hlte" remote="gh" revision="lp5.1" />
+-->
+<!--
+  <project name="ench0/android_kernel_samsung_hlted/" path="kernel/samsung/hlte" remote="gh" revision="e3" />
+
+  <project name="SlimRoms/device_samsung_msm8974-common" path="device/samsung/msm8974-common" remote="gh" revision="lp5.1" />
+  <project name="SlimRoms/device_samsung_qcom-common" path="device/samsung/qcom-common" remote="gh" revision="lp5.1" />
+
+
+  <project name="temasek/android_hardware_samsung" path="hardware/samsung" remote="gh" revision="cm-12.1" />
+  <project name="temasek/proprietary_vendor_samsung" path="vendor/samsung" remote="gh" revision="cm-12.1" />
+-->
+
+
+
+
+
+  <project path="packages/apps/Camera2" name="SlimRoms/packages_apps_Camera2" remote="gh" revision="lp5.1" />
+  <project path="packages/apps/Gallery2" name="SlimRoms/packages_apps_Gallery2" remote="gh" revision="lp5.1" />
+
+
+  <remove-project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="mo" revision="lp-mr1" />
+  <remove-project path="frameworks/base" name="platform_frameworks_base" remote="mo" revision="lp-mr1" />
+  <remove-project path="frameworks/webview" name="platform_frameworks_webview" remote="mo" revision="lp-mr1" />
+  <remove-project path="frameworks/av" name="frameworks_av" remote="mo" revision="lp-mr1" />
+  <remove-project path="build" name="android_build" remote="mo" revision="lp-mr1" />
+  <remove-project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="mo" revision="lp-mr1" />
+  <remove-project path="libcore" name="libcore" remote="mo" revision="lp-mr1" />
+  <remove-project path="packages/apps/OpenDelta" name="android_packages_apps_OpenDelta" remote="mo" revision="lp-mr1" />
+  <remove-project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" remote="mo" revision="lp-mr1" />
+  <remove-project path="packages/apps/Dialer" name="android_packages_apps_Dialer" remote="mo" revision="lp-mr1" />
+  <remove-project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="mo" revision="lp-mr1" />
+  <remove-project path="packages/apps/InCallUI" name="android_packages_apps_InCallUI" remote="mo" revision="lp-mr1" />
+  <remove-project path="art" name="android_art" remote="mo" revision="lp-mr1" />
+  <remove-project path="bionic" name="android_bionic" remote="mo" revision="lp-mr1" />
+  <remove-project path="external/chromium_org/third_party/skia" name="external_chromium_org_third_party_skia" remote="mo" revision="lp-mr1" />
+  <remove-project path="external/skia" name="external_skia" remote="mo" revision="lp-mr1" />
+  <remove-project path="frameworks/opt/net/wifi" name="android_frameworks_opt_net_wifi" remote="mo" revision="lp-mr1" />
+  <remove-project path="platform_manifest" name="platform_manifest" remote="mo" revision="lp-mr1" />
+  <remove-project path="frameworks/base" name="platform_frameworks_base" remote="mo" revision="lp-mr1" />
+
+  <project path="packages/apps/Settings" name="ench0/android_packages_apps_Settings" remote="gh" revision="eee" />
+  <project path="frameworks/base" name="ench0/platform_frameworks_base" remote="gh" revision="eee" />
+  <project path="frameworks/webview" name="ench0/platform_frameworks_webview" remote="gh" revision="eee" />
+  <project path="frameworks/av" name="ench0/frameworks_av" remote="gh" revision="eee" />
+  <project path="build" name="ench0/android_build" remote="gh" revision="eee" />
+  <project path="packages/services/Telecomm" name="ench0/android_packages_services_Telecomm" remote="gh" revision="eee" />
+  <project path="libcore" name="ench0/libcore" remote="gh" revision="eee" />
+  <project path="packages/apps/OpenDelta" name="ench0/android_packages_apps_OpenDelta" remote="gh" revision="eee" />
+  <project path="packages/providers/MediaProvider" name="ench0/packages_providers_MediaProvider" remote="gh" revision="eee" />
+  <project path="packages/apps/Dialer" name="ench0/android_packages_apps_Dialer" remote="gh" revision="eee" />
+  <project path="packages/services/Telephony" name="ench0/android_packages_services_Telephony" remote="gh" revision="eee" />
+  <project path="packages/apps/InCallUI" name="ench0/android_packages_apps_InCallUI" remote="gh" revision="eee" />
+  <project path="art" name="ench0/android_art" remote="gh" revision="eee" />
+  <project path="bionic" name="ench0/android_bionic" remote="gh" revision="eee" />
+  <project path="external/chromium_org/third_party/skia" name="ench0/external_chromium_org_third_party_skia" remote="gh" revision="eee" />
+  <project path="external/skia" name="ench0/external_skia" remote="gh" revision="eee" />
+  <project path="frameworks/opt/net/wifi" name="ench0/android_frameworks_opt_net_wifi" remote="gh" revision="eee" />
+  <project path="platform_manifest" name="ench0/platform_manifest-1" remote="gh" revision="eee" />
+  <project path="frameworks/base" name="ench0/platform_frameworks_base" remote="gh" revision="eee" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</manifest>
