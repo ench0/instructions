@@ -60,3 +60,9 @@ sudo update-alternatives --set c++ /usr/bin/g++
 
 sudo update-alternatives --config gcc
 sudo update-alternatives --config g++
+
+
+
+
+git config --global user.email "x@x.net"
+git config --global user.name "ench0"
