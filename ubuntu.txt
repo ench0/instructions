@@ -8,6 +8,9 @@ sudo aptitude install ubuntu-restricted-addons ubuntu-restricted-extras bison bu
 
 #for graphite
 sudo aptitude install libcloog-isl-dev
+#saber
+sudo apt-get install libcap-dev texinfo
+#?sudo aptitude instal libisl-dev
 
 nano .bashrc 
 #######
