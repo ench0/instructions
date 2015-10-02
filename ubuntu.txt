@@ -10,7 +10,16 @@ sudo aptitude install ubuntu-restricted-addons ubuntu-restricted-extras bison bu
 sudo aptitude install libcloog-isl-dev
 #saber
 sudo apt-get install libcap-dev texinfo
-#?sudo aptitude instal libisl-dev
+#?:
+sudo aptitude instal libisl-dev
+sudo aptitude install libcloog-isl-dev 
+sudo aptitude install libisl-dev 
+sudo aptitude install libisl13 
+sudo apt-get install libcap-dev texinfo
+sudo cp /usr/lib/x86_64-linux-gnu/libisl.so.13 /usr/lib/x86_64-linux-gnu/libisl.so.15
+sudo aptitude install libmpfr-dev 
+sudo cp /usr/lib/x86_64-linux-gnu/libmpfr.so.4 /usr/lib/x86_64-linux-gnu/libmpfr.so.6
+
 
 nano .bashrc 
 #######
