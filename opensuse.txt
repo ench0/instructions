@@ -6,7 +6,8 @@ zypper in java-1_7_0-openjdk-devel
 zypper in bison bison-lang cvs cvsps flex gcc gcc5-c++ gcc-c++ git git-core git-cvs git-email git-gui gitk git-svn \
 gperf libapr1 libapr-util1 libserf-1-1 libstdc++6-devel-gcc5 libsvn_auth_kwallet-1-0 m4 nano nano-lang \
 perl-Authen-SASL perl-Error perl-Net-SMTP-SSL pngcrush python-Markdown schedtool subversion \
-subversion-bash-completion subversion-perl zlib-devel
+subversion-bash-completion subversion-perl zlib-devel ccache lzop
+
 
 /usr/sbin/alternatives --config java
 /usr/sbin/alternatives --config javac
