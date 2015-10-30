@@ -11,3 +11,6 @@ subversion-bash-completion subversion-perl zlib-devel ccache lzop
 
 /usr/sbin/alternatives --config java
 /usr/sbin/alternatives --config javac
+
+git config --global user.email "x@x.net"
+git config --global user.name "ench0"
