@@ -1,3 +1,21 @@
+nano .bashrc
+###
+export USE_CCACHE=1
+PATH="~/bin:$PATH"
+###
+
+sudo pacman -S base-devel yaourt
+
+
+
+
+
+
+
+
+
+
+
 wget https://aur.archlinux.org/packages/is/isl/isl.tar.gz
 tar xzfv isl.tar.gz
 cd isl
