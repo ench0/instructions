@@ -8,6 +8,7 @@ alias and="cd /home/data/android"
 sudo pacman -R lib32-libgudev lib32-colord steam-manjaro lib32-gtk3 lib32-gconf
 sudo pacman -S base-devel yaourt
 sudo pacman -S gcc-multilib
+pacman -S schedtool
 
 sudo pacman -S jdk7-openjdk
 sudo archlinux-java set java-7-openjdk
@@ -16,14 +17,18 @@ sudo archlinux-java status
 ln -s /usr/bin/python2 ~/bin/python
 ln -s /usr/bin/python2-config ~/bin/python-config
 which python
-
+sudo rm /usr/bin/python
+sudo rm /usr/bin/python-config
+sudo ln -s /usr/bin/python2 /usr/bin/python
+sudo ln -s /usr/bin/python2-config /usr/bin/python-config
 
 sudo pacman -Qs jdk
 sudo pacman -Ss jdk
 
+git config --global user.email "you@example.com"
+git config --global user.name "Your Name"
 
-
-
+###
 
 wget https://aur.archlinux.org/packages/is/isl/isl.tar.gz
 tar xzfv isl.tar.gz
@@ -36,3 +41,9 @@ tar xzfv cloog.tar.gz
 cd cloog
 makepkg -s
 sudo pacman -U cloog-0.18.3-3-x86_64.pkg.tar.xz
+
+
+
+####
+yaourt -S packer
+packer -Syu
