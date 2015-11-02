@@ -2,15 +2,24 @@ nano .bashrc
 ###
 export USE_CCACHE=1
 PATH="~/bin:$PATH"
+alias and="cd /home/data/android"
 ###
 
+sudo pacman -R lib32-libgudev lib32-colord steam-manjaro lib32-gtk3 lib32-gconf
 sudo pacman -S base-devel yaourt
+sudo pacman -S gcc-multilib
+
+sudo pacman -S jdk7-openjdk
+sudo archlinux-java set java-7-openjdk
+sudo archlinux-java status
+
+ln -s /usr/bin/python2 ~/bin/python
+ln -s /usr/bin/python2-config ~/bin/python-config
+which python
 
 
-
-
-
-
+sudo pacman -Qs jdk
+sudo pacman -Ss jdk
 
 
 
