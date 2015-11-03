@@ -9,7 +9,9 @@ sudo pacman -R lib32-libgudev lib32-colord steam-manjaro lib32-gtk3 lib32-gconf
 sudo pacman -S base-devel yaourt
 sudo pacman -S gcc-multilib
 sudo pacman -S schedtool gperf
-sudo pacman -Swxgtk perl-switch python2-virtualenv  
+sudo pacman -Swxgtk perl-switch python2-virtualenv
+#for ncurses
+sudo pacman -R lib32-libxml2 lib32-libcroco lib32-libsoup lib32-librsvg lib32-rest
 packer -S lib32-ncurses5-compat-libs
 
 
