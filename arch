@@ -8,7 +8,10 @@ alias and="cd /home/data/android"
 sudo pacman -R lib32-libgudev lib32-colord steam-manjaro lib32-gtk3 lib32-gconf
 sudo pacman -S base-devel yaourt
 sudo pacman -S gcc-multilib
-pacman -S schedtool gperf
+sudo pacman -S schedtool gperf
+sudo pacman -Swxgtk perl-switch python2-virtualenv  
+packer -S lib32-ncurses5-compat-libs
+
 
 sudo pacman -S jdk7-openjdk
 sudo archlinux-java set java-7-openjdk
@@ -24,6 +27,8 @@ sudo ln -s /usr/bin/python2-config /usr/bin/python-config
 
 sudo pacman -Qs jdk
 sudo pacman -Ss jdk
+
+
 
 git config --global user.email "you@example.com"
 git config --global user.name "Your Name"
