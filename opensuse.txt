@@ -1,7 +1,7 @@
 #ln -s /usr/sbin/update-alternatives /usr/sbin/alternatives
 
 #zypper in gcc5-java
-zypper in java-1_7_0-openjdk-devel
+sudo zypper in java-1_7_0-openjdk-devel
 
 sudo zypper in pngcrush optipng 
 
@@ -25,5 +25,5 @@ ln -s /usr/sbin/schedtool /usr/bin/schedtool
 nano ~/.bashrc
 ###
 export USE_CCACHE=1
-PATH="/home/ensar/bin:$PATH"
+PATH="~/bin:$PATH"
 ###
