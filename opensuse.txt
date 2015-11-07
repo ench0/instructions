@@ -21,3 +21,9 @@ git config --global user.email "x@x.net"
 git config --global user.name "ench0"
 
 ln -s /usr/sbin/schedtool /usr/bin/schedtool
+
+nano ~/.bashrc
+###
+export USE_CCACHE=1
+PATH="/home/ensar/bin:$PATH"
+###
