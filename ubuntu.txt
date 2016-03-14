@@ -32,7 +32,7 @@ if ! shopt -oq posix; then
   fi
 fi
 export USE_CCACHE=1
-PATH="/home/ensar/bin:$PATH"
+PATH="~/bin:$PATH"
 #######
 cd android/pac
 prebuilts/misc/linux-x86/ccache/ccache -M 25G
@@ -47,7 +47,7 @@ if [ "$BASH" ]; then
 fi
 
 mesg n
-PATH="/home/ensar/bin:$PATH"
+PATH="~/bin:$PATH"
 #######
 
 ?sudo apt-get install libcap-dev texinfo automake libgmp-dev
